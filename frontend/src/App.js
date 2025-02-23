@@ -34,6 +34,7 @@ function App() {
 
 
 const handleUpload = async () => {
+
   if (!selectedFile) {
     alert('Please select a file.');
     return;
@@ -45,7 +46,7 @@ const handleUpload = async () => {
   formData.append('document', selectedFile);
 
   try {
-    const res = await fetch('http://localhost:4000/upload', {
+    const res = await fetch('http://localhost:4000/api/files/upload', {
       method: 'POST',
       body: formData,
     });
@@ -81,7 +82,7 @@ const handleQuery = async () => {
   setIsQuerying(true); // ✅ Start loading
 
   try {
-    const res = await fetch('http://localhost:4000/search', {
+    const res = await fetch('http://localhost:4000/api/search/search', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ query }),
