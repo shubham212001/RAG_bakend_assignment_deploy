@@ -1,72 +1,10 @@
 {
-    "Shubham Sharma Timelyend.pdf": {
-        "document_id": "2ceff516-b9e3-4a6a-b59f-f4a28621ee01",
-        "queries": [
-            "What is the main subject discussed in this document?",
-            "Does this document contain any case studies or examples?",
-            "What conclusions are drawn in this document?",
-            "Who is the intended audience for this document?",
-            "Are there any key recommendations provided?"
-        ]
-    },
     "Speech_ACM (5).pdf": {
-        "document_id": "7b7819cf-90ab-4bc1-888a-96d1973a0be6",
-        "queries": [
-            "What is the central theme of the speech?",
-            "Who is the speaker and what is their background?",
-            "What key points are emphasized in the speech?",
-            "Are there any quotes or notable statements?",
-            "Does the speech discuss any historical or future perspectives?"
-        ]
-    },
-    "Shubham Sharma Zingbus.pdf": {
-        "document_id": "5894e57d-1b3a-44ab-9651-02d8813caefe",
-        "queries": [
-            "What is Zingbus and what services does it offer?",
-            "What is the role of Shubham Sharma in this document?",
-            "Does the document contain any business insights or case studies?",
-            "Are there any key statistics or data points mentioned?",
-            "What are the major challenges or solutions discussed?"
-        ]
-    },
-    "C-Programming-Rajesh-Pandey.pdf": {
-        "document_id": "2b745200-8678-473e-937f-52fb3bbe11e2",
-        "queries": [
-            "What are the fundamentals of C programming covered in the document?",
-            "Does the document explain memory management in C?",
-            "Are there any code examples or practical applications?",
-            "What data structures are discussed in this document?",
-            "Is there a section on C programming best practices?"
-        ]
+        "document_id": "a3c9a214-a4e9-4a3a-85cc-f5e0d63036db",
+        "queries": []
     },
     "history_of_git.pdf": {
-        "document_id": "a9bced62-46dd-4668-ac18-63ecc9f72ee7",
-        "queries": [
-            "What is the origin of Git and who created it?",
-            "What major milestones in Git's history are mentioned?",
-            "How has Git evolved over time?",
-            "Are there any comparisons between Git and other version control systems?",
-            "What are the key features of Git highlighted in the document?"
-        ]
-    },
-    "whistleblower-policy-ba-revised.pdf": {
-        "document_id": "db0b26a5-cfab-40f0-bdf6-fc2b7b1f41e6",
-        "queries": [
-            "What is the purpose of the whistleblower policy?",
-            "What protections does the policy offer to whistleblowers?",
-            "What procedures must be followed to report misconduct?",
-            "Are there any case studies or real-world applications mentioned?",
-            "How does this policy align with legal or corporate governance frameworks?"
-        ]
-    },
-    "Uploader_test_doc.pdf": {
-        "document_id": "f2860673-a031-499d-8441-402dac3dd7a5",
-        "queries": [
-            "What is the content of this test document?",
-            "Does it contain any instructions or guidelines?",
-            "Is there a section related to data handling or security?",
-            "What formatting or structure does this document follow?",
-            "Are there any references or external sources cited?"
-        ]
+        "document_id": "74410e1d-5122-4811-a794-6fda8fc14c0f",
+        "queries": []
     }
 }

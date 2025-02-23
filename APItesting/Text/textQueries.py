@@ -19,7 +19,7 @@ results = {}
 for filename, info in queries_dict.items():
     doc_id = info["document_id"]
     queries = info["queries"]
-
+    
     if not queries:
         print(f"⚠️ Skipping {filename} (No queries provided)")
         continue

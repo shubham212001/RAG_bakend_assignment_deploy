@@ -1,51 +1,8 @@
 {
-    "Shubham Sharma Timelyend.pdf": {
-        "What is the main subject discussed in this document?": "",
-        "Does this document contain any case studies or examples?": "",
-        "What conclusions are drawn in this document?": "",
-        "Who is the intended audience for this document?": "",
-        "Are there any key recommendations provided?": "Received June 30, 2021, accepted July 20, 2021, date of publication August 3, 2021, date of current version August 17, 2021. From the analysis of the reviewed articles, several proposed\nresearch in terms of models and strategies to improve the\nperformance of networks, such as incremental learning strat-\negy [133], various improvement modules [93], [101], [121],\ncoarse-to-fine segmentation [127], there is still no model can\nsegment vessels perfectly, including segmentation of vessel\nboundaries and thin vessels, segmentation of background\nbetween two closed vessels, segmentation of vessel under\nthe presence of abnormalities and various structures, segmen-\ntation of vessel in cross-connections and robust segmenta-\ntion between different databases."
-    },
     "Speech_ACM (5).pdf": {
-        "What is the central theme of the speech?": "",
-        "Who is the speaker and what is their background?": "His research interests include signal processing, computer vision,\nand deep learning for semantic segmentation. YIZHOU  WANG(Senior  Member,  IEEE)\nreceived  the  bachelor\u2019s  degree  in  electrical\nengineering from Tsinghua University, in 1996,\nand the Ph.D. degree in computer science from the\nUniversity of California at Los Angeles (UCLA),\nin 2005. From 2005 to 2007, he was a Research\nStaff with Xerox Palo Alto Research Center\n(Xerox PARC). He is a BoYa Professor with\nthe Computer Science Department and the Vice\nDirector of the Center on Frontiers of Computing\nStudies, Peking University.",
-        "What key points are emphasized in the speech?": "",
-        "Are there any quotes or notable statements?": "",
-        "Does the speech discuss any historical or future perspectives?": ""
-    },
-    "Shubham Sharma Zingbus.pdf": {
-        "What is Zingbus and what services does it offer?": "His research interests include signal processing, computer vision,\nand deep learning for semantic segmentation. YIZHOU  WANG(Senior  Member,  IEEE)\nreceived  the  bachelor\u2019s  degree  in  electrical\nengineering from Tsinghua University, in 1996,\nand the Ph.D. degree in computer science from the\nUniversity of California at Los Angeles (UCLA),\nin 2005. From 2005 to 2007, he was a Research\nStaff with Xerox Palo Alto Research Center\n(Xerox PARC). He is a BoYa Professor with\nthe Computer Science Department and the Vice\nDirector of the Center on Frontiers of Computing\nStudies, Peking University.",
-        "What is the role of Shubham Sharma in this document?": "",
-        "Does the document contain any business insights or case studies?": "",
-        "Are there any key statistics or data points mentioned?": "",
-        "What are the major challenges or solutions discussed?": ""
-    },
-    "C-Programming-Rajesh-Pandey.pdf": {
-        "What are the fundamentals of C programming covered in the document?": "",
-        "Does the document explain memory management in C?": "",
-        "Are there any code examples or practical applications?": "",
-        "What data structures are discussed in this document?": "",
-        "Is there a section on C programming best practices?": ""
+        "Rahul Shukla ": ""
     },
     "history_of_git.pdf": {
-        "What is the origin of Git and who created it?": "",
-        "What major milestones in Git's history are mentioned?": "",
-        "How has Git evolved over time?": "",
-        "Are there any comparisons between Git and other version control systems?": "",
-        "What are the key features of Git highlighted in the document?": ""
-    },
-    "whistleblower-policy-ba-revised.pdf": {
-        "What is the purpose of the whistleblower policy?": "",
-        "What protections does the policy offer to whistleblowers?": "",
-        "What procedures must be followed to report misconduct?": "",
-        "Are there any case studies or real-world applications mentioned?": "",
-        "How does this policy align with legal or corporate governance frameworks?": ""
-    },
-    "Uploader_test_doc.pdf": {
-        "What is the content of this test document?": "",
-        "Does it contain any instructions or guidelines?": "",
-        "Is there a section related to data handling or security?": "",
-        "What formatting or structure does this document follow?": "",
-        "Are there any references or external sources cited?": "Received June 30, 2021, accepted July 20, 2021, date of publication August 3, 2021, date of current version August 17, 2021. Eng., vol. 59, no. 9, pp. 2538\u20132548, Sep. 2012. [60] P. Prentasic, S. Loncaric, Z. Vatavuk, G. Bencic, M. Subasic, T. Petkovic,\nL. Dujmovic, M. Malenica-Ravlic, N. Budimlija, and R. Tadic, \u2018\u2018Dia-\nbetic retinopathy image database(DRiDB): A new database for diabetic\nretinopathy screening programs research,\u2019\u2019 inProc. 8th Int. Symp. Image\nSignal Process. Anal. (ISPA), Sep. 2013, pp. 711\u2013716. [61] D. J. Farnell.Automated Retinal Image Analysis (ARIA) Data Set. Accessed: Jun. 3, 2021. [Online]. Available: http://www.damianjjfarnell. com/?page_id=276\n[62] D. J. J. Farnell, F. N. Hatfield, P. Knox, M. Reakes, S. Spencer, D. Parry,\nand S. P."
+        "History of git": "The History of Git\nIntroduction\nGit  is  a  distributed  version  control  system  that  has  become  an  essential  tool  for  software\ndevelopment. Created by Linus Torvalds in 2005, Git was designed to address the growing need for\nan efficient, flexible, and reliable system to track changes in source code. Today, it is widely used by\ndevelopers around the world, powering open-source and enterprise-level projects alike. The Origins of Git\nBefore Git, the Linux kernel development team relied on a proprietary version control system called\nBitKeeper. However, in 2005, licensing conflicts led to the revocation of free access to BitKeeper for\nopen-source  developers. - Efficient Branching and Merging: Git makes it easy to create and merge branches, encouraging a\ncollaborative workflow. Key Developments in Git\nAfter  its  initial  release  in  2005,  Git  underwent  several  refinements  and  improvements. Some  key\nmilestones in its evolution include:\n- 2006: The first major public release (Git 1.0) was launched, providing a stable tool for developers. - 2007: GitHub was founded, making Git more accessible and promoting widespread adoption. - 2010: Git 2.0 introduced performance enhancements and better usability. -  2013:  Microsoft  announced  its  adoption  of  Git  for  Windows  development,  signaling  industry-wide\nacceptance. -  2018:  GitHub  was  acquired  by  Microsoft,  further  cementing  Git's  role  in  enterprise  software\ndevelopment. Git's Impact on Software Development\nGit has fundamentally transformed the way developers collaborate. Some of its key impacts include:\n- Open Source Collaboration: Projects like Linux, Node.js, and TensorFlow rely on Git for distributed\ndevelopment. -  Enterprise  Adoption:  Major  companies,  including  Google,  Microsoft,  and  Facebook,  use  Git  for\nsoftware development. -  CI/CD  Integration:  Git  seamlessly  integrates  with  continuous  integration  and  deployment  (CI/CD)\npipelines. - Standardization: Git has become the de facto standard for version control, replacing older systems\nlike Subversion (SVN) and Mercurial. Conclusion\nFrom  its  creation  out  of  necessity  to  its  dominance  in  modern  software  development,  Git  has\nrevolutionized version control. Its distributed architecture, speed, and flexibility make it an invaluable\ntool  for  both  individual  developers  and  large  organizations. This  created  an  urgent  need  for  a  new  system  that  could  handle  the\ncomplexity and scale of Linux development while maintaining speed and efficiency. Linus  Torvalds,  the  creator  of  Linux,  took  on  the  challenge  of  developing  a  new  version  control\nsystem from scratch. His primary goals were:\n- Speed: Git needed to be fast to handle large repositories efficiently. -  Distributed  Architecture:  Unlike  centralized  systems,  Git  allows  developers  to  work  independently\nand merge changes asynchronously. - Data Integrity: Every commit in Git is secured with a cryptographic hash to prevent data corruption."
     }
 }

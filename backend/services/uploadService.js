@@ -117,8 +117,10 @@ async function splitTextAndStore(text, filePath, chunkSize) {
   })());
 
   const storedChunks = await Promise.all(chunkPromises);
+  console.log("This is the function that is called")
+  console.log(filePath)
   await documentCollection.data.insertMany(storedChunks);
-  console.log(storedChunks)
+  //console.log(storedChunks)
   globals.globalString2 = globalDocumentId;
 
   console.log(`Stored ${storedChunks.length} logical chunks in Weaviate.`);
