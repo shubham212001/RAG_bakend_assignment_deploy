@@ -80,7 +80,7 @@ function App() {
         <span role="img" aria-label="Document">
           📄
         </span>{' '}
-        Document Upload & Query
+        RAG : Document Upload & Query
       </h1>
 
       {/* Row containing Upload and Query side by side */}
