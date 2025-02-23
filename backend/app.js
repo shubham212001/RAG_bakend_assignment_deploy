@@ -9,7 +9,7 @@ const config = require('./config');
 const fileRoutes = require('./routes/fileRoutes');
 const jsonRoutes = require('./routes/jsonRoutes');
 const searchRoutes = require('./routes/searchRoutes');
-
+// https://rag-bakend-assignment-deploy-1-77cf.onrender.com
 app.use(cors({
   origin: 'https://rag-bakend-assignment-deploy-1-77cf.onrender.com',
   methods: 'GET, POST',

@@ -11,7 +11,7 @@ async function searchQuery(query, received_id) {
   const documentCollection = client.collections.get('Final_Test_CollectionWithoutVectoriser');
 
   const result = await documentCollection.query.nearVector(queryEmbedding, {
-    limit: 5,
+    limit: 3,
     returnProperties: ['page_content', 'file_name', 'document_id', 'chunk_index'],
   });
 
