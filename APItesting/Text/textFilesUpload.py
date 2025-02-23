@@ -3,7 +3,7 @@ import json
 import requests
 
 # Backend API Endpoint
-upload_url = "https://rag-bakend-assignment-deploy.onrender.com/api/files/upload"
+upload_url = "https://rag-bakend-assignment-deploy-4t2h.onrender.com/api/files/upload"
 # upload_url="http://localhost:4000/api/files/upload"
 # Folder containing PDF files
 folder_path = "/Users/shubhamsharma/Downloads/api_test"  # Change this to your folder
