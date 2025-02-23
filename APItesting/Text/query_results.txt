@@ -1,0 +1,34 @@
+
+=== File: Speech_ACM (5).pdf ===
+
+Query: Santosh Kumar
+Response: Santosh  Kumar  is  working  as  an  Assistant  Professor  with  the  Department
+of Computer Science and Engineering at IIIT-Naya Raipur, Chhattisgarh (e-
+mail:santosh@iiitnr.edu.in). L
+ANGUAGEthe  essence  of  human  connection  and  cul-
+tural   identity   serves   as   a   conduit   for   transmitting
+knowledge, traditions, and heritage [1]Amidst the vast array
+of languages spoken worldwide, a stark reality emerges: be-
+tween 6,000 to 7,000 languages currently exist, yet between
+50% and 90% of them face severe endangerment or extinc-
+tion  by  the  dawn  of  the  22nd  century  [4]. [18]  Mehta,  D.,  Santy,  S.,  Mothilal,  R.,  Srivastava,  B.,  Sharma,  A.,
+Shukla,  A.,  Prasad,  V.,  U,  V.,  Sharma,  A.,  &  Bali,  K. (2020).
+--------------------------------------------------
+
+=== File: sylabbus_papa_send.docx ===
+
+Query: Santosh Kumar
+Response: 
+--------------------------------------------------
+
+=== File: MIT-LICENSE.txt ===
+
+Query: Santosh Kumar
+Response: 
+--------------------------------------------------
+
+=== File: history_of_git.pdf ===
+
+Query: Santosh Kumar
+Response: 
+--------------------------------------------------

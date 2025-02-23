@@ -1,0 +1,4 @@
+sample.json | ['total_spent'] | max | {'document_id': 'e8f14bd8-17fd-4dca-b6c5-257633df634d', 'field': 'total_spent', 'operation': 'max', 'result': 29533.75}
+sample.json | ['total_spent'] | min | {'document_id': 'e8f14bd8-17fd-4dca-b6c5-257633df634d', 'field': 'total_spent', 'operation': 'min', 'result': 5009.22}
+sample.json | ['total_spent'] | sum | {'document_id': 'e8f14bd8-17fd-4dca-b6c5-257633df634d', 'field': 'total_spent', 'operation': 'sum', 'result': 799057.8800000002}
+sample.json | ['total_spent'] | average | {'document_id': 'e8f14bd8-17fd-4dca-b6c5-257633df634d', 'field': 'total_spent', 'operation': 'average', 'result': 15981.157600000004}

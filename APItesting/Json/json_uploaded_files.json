@@ -1,0 +1,12 @@
+{
+    "sample.json": {
+        "document_id": "e8f14bd8-17fd-4dca-b6c5-257633df634d",
+        "field": ["total_spent"],
+        "operations": [
+            "max",
+            "min",
+            "sum",
+            "average"
+        ]
+    }
+}

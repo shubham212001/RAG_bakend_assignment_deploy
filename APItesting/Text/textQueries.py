@@ -1,13 +1,15 @@
 import json
 import requests
-
+import os
 # Backend API Endpoint
 search_url = "https://rag-bakend-assignment-deploy-4t2h.onrender.com/api/search/search"
 # search_url="http://localhost:4000/api/search/search"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Input JSON file
-input_json = "queries.json"
-output_txt = "query_results.txt"  # Output file for results
+# Define input and output file paths (in the same directory as the script)
+input_json = os.path.join(SCRIPT_DIR, "queries.json")
+output_txt = os.path.join(SCRIPT_DIR, "query_results.txt")
+
 
 # Load JSON file with document IDs and queries
 with open(input_json, "r", encoding="utf-8") as f:
