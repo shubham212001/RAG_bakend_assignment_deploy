@@ -13,7 +13,7 @@ function App() {
 
   const checkConnection = async () => {
     try {
-      const res = await fetch('http://localhost:4000/test');
+      const res = await fetch('https://rag-bakend-assignment-deploy.onrender.com/test');
       const data = await res.json();
       alert(data.message);
     } catch (error) {
@@ -46,7 +46,7 @@ const handleUpload = async () => {
   formData.append('document', selectedFile);
 
   try {
-    const res = await fetch('http://localhost:4000/api/files/upload', {
+    const res = await fetch('https://rag-bakend-assignment-deploy.onrender.com/api/files/upload', {
       method: 'POST',
       body: formData,
     });
@@ -82,7 +82,7 @@ const handleQuery = async () => {
   setIsQuerying(true); // ✅ Start loading
 
   try {
-    const res = await fetch('http://localhost:4000/api/search/search', {
+    const res = await fetch('https://rag-bakend-assignment-deploy.onrender.com/api/search/search', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ query }),

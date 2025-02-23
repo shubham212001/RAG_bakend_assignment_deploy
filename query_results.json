@@ -1,0 +1,51 @@
+{
+    "Shubham Sharma Timelyend.pdf": {
+        "What is the main subject discussed in this document?": "",
+        "Does this document contain any case studies or examples?": "",
+        "What conclusions are drawn in this document?": "",
+        "Who is the intended audience for this document?": "",
+        "Are there any key recommendations provided?": "Received June 30, 2021, accepted July 20, 2021, date of publication August 3, 2021, date of current version August 17, 2021. From the analysis of the reviewed articles, several proposed\nresearch in terms of models and strategies to improve the\nperformance of networks, such as incremental learning strat-\negy [133], various improvement modules [93], [101], [121],\ncoarse-to-fine segmentation [127], there is still no model can\nsegment vessels perfectly, including segmentation of vessel\nboundaries and thin vessels, segmentation of background\nbetween two closed vessels, segmentation of vessel under\nthe presence of abnormalities and various structures, segmen-\ntation of vessel in cross-connections and robust segmenta-\ntion between different databases."
+    },
+    "Speech_ACM (5).pdf": {
+        "What is the central theme of the speech?": "",
+        "Who is the speaker and what is their background?": "His research interests include signal processing, computer vision,\nand deep learning for semantic segmentation. YIZHOU  WANG(Senior  Member,  IEEE)\nreceived  the  bachelor\u2019s  degree  in  electrical\nengineering from Tsinghua University, in 1996,\nand the Ph.D. degree in computer science from the\nUniversity of California at Los Angeles (UCLA),\nin 2005. From 2005 to 2007, he was a Research\nStaff with Xerox Palo Alto Research Center\n(Xerox PARC). He is a BoYa Professor with\nthe Computer Science Department and the Vice\nDirector of the Center on Frontiers of Computing\nStudies, Peking University.",
+        "What key points are emphasized in the speech?": "",
+        "Are there any quotes or notable statements?": "",
+        "Does the speech discuss any historical or future perspectives?": ""
+    },
+    "Shubham Sharma Zingbus.pdf": {
+        "What is Zingbus and what services does it offer?": "His research interests include signal processing, computer vision,\nand deep learning for semantic segmentation. YIZHOU  WANG(Senior  Member,  IEEE)\nreceived  the  bachelor\u2019s  degree  in  electrical\nengineering from Tsinghua University, in 1996,\nand the Ph.D. degree in computer science from the\nUniversity of California at Los Angeles (UCLA),\nin 2005. From 2005 to 2007, he was a Research\nStaff with Xerox Palo Alto Research Center\n(Xerox PARC). He is a BoYa Professor with\nthe Computer Science Department and the Vice\nDirector of the Center on Frontiers of Computing\nStudies, Peking University.",
+        "What is the role of Shubham Sharma in this document?": "",
+        "Does the document contain any business insights or case studies?": "",
+        "Are there any key statistics or data points mentioned?": "",
+        "What are the major challenges or solutions discussed?": ""
+    },
+    "C-Programming-Rajesh-Pandey.pdf": {
+        "What are the fundamentals of C programming covered in the document?": "",
+        "Does the document explain memory management in C?": "",
+        "Are there any code examples or practical applications?": "",
+        "What data structures are discussed in this document?": "",
+        "Is there a section on C programming best practices?": ""
+    },
+    "history_of_git.pdf": {
+        "What is the origin of Git and who created it?": "",
+        "What major milestones in Git's history are mentioned?": "",
+        "How has Git evolved over time?": "",
+        "Are there any comparisons between Git and other version control systems?": "",
+        "What are the key features of Git highlighted in the document?": ""
+    },
+    "whistleblower-policy-ba-revised.pdf": {
+        "What is the purpose of the whistleblower policy?": "",
+        "What protections does the policy offer to whistleblowers?": "",
+        "What procedures must be followed to report misconduct?": "",
+        "Are there any case studies or real-world applications mentioned?": "",
+        "How does this policy align with legal or corporate governance frameworks?": ""
+    },
+    "Uploader_test_doc.pdf": {
+        "What is the content of this test document?": "",
+        "Does it contain any instructions or guidelines?": "",
+        "Is there a section related to data handling or security?": "",
+        "What formatting or structure does this document follow?": "",
+        "Are there any references or external sources cited?": "Received June 30, 2021, accepted July 20, 2021, date of publication August 3, 2021, date of current version August 17, 2021. Eng., vol. 59, no. 9, pp. 2538\u20132548, Sep. 2012. [60] P. Prentasic, S. Loncaric, Z. Vatavuk, G. Bencic, M. Subasic, T. Petkovic,\nL. Dujmovic, M. Malenica-Ravlic, N. Budimlija, and R. Tadic, \u2018\u2018Dia-\nbetic retinopathy image database(DRiDB): A new database for diabetic\nretinopathy screening programs research,\u2019\u2019 inProc. 8th Int. Symp. Image\nSignal Process. Anal. (ISPA), Sep. 2013, pp. 711\u2013716. [61] D. J. Farnell.Automated Retinal Image Analysis (ARIA) Data Set. Accessed: Jun. 3, 2021. [Online]. Available: http://www.damianjjfarnell. com/?page_id=276\n[62] D. J. J. Farnell, F. N. Hatfield, P. Knox, M. Reakes, S. Spencer, D. Parry,\nand S. P."
+    }
+}
