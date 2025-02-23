@@ -11,7 +11,7 @@ const jsonRoutes = require('./routes/jsonRoutes');
 const searchRoutes = require('./routes/searchRoutes');
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://rag-bakend-assignment-deploy.onrender.com',
   methods: 'GET, POST',
   allowedHeaders: 'Content-Type'
 }));

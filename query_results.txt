@@ -1,10 +1,6 @@
 
 === File: Speech_ACM (5).pdf ===
 
-Query: History of git
-Response: 
---------------------------------------------------
-
 Query: Santosh Kumar
 Response: Santosh  Kumar  is  working  as  an  Assistant  Professor  with  the  Department
 of Computer Science and Engineering at IIIT-Naya Raipur, Chhattisgarh (e-
@@ -19,9 +15,17 @@ tion  by  the  dawn  of  the  22nd  century  [4]. [18]  Mehta,  D.,  Santy,  S.,
 Shukla,  A.,  Prasad,  V.,  U,  V.,  Sharma,  A.,  &  Bali,  K. (2020).
 --------------------------------------------------
 
+Query: history_of_git
+Response: 
+--------------------------------------------------
+
 === File: history_of_git.pdf ===
 
-Query: History of git
+Query: Santosh Kumar
+Response: 
+--------------------------------------------------
+
+Query: history_of_git
 Response: The History of Git
 Introduction
 Git  is  a  distributed  version  control  system  that  has  become  an  essential  tool  for  software
@@ -50,8 +54,4 @@ complexity and scale of Linux development while maintaining speed and efficiency
 system from scratch. His primary goals were:
 - Speed: Git needed to be fast to handle large repositories efficiently. -  Distributed  Architecture:  Unlike  centralized  systems,  Git  allows  developers  to  work  independently
 and merge changes asynchronously. - Data Integrity: Every commit in Git is secured with a cryptographic hash to prevent data corruption.
---------------------------------------------------
-
-Query: Santosh Kumar
-Response: 
 --------------------------------------------------
