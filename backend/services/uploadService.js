@@ -60,42 +60,72 @@ async function storeJSONInWeaviate(jsonData, receivedFileName) {
   return json_global_id;
 }
 
+
+const { v4: uuidv4 } = require('uuid');
+
 async function splitTextAndStore(text, filePath, chunkSize) {
   const client = await connectToWeaviate();
   const documentCollection = client.collections.get('Final_Test_CollectionWithoutVectoriser');
 
   await checkAndDeleteExistingData(documentCollection, filePath);
 
-  const globalDocumentId = crypto.randomUUID();
+  const globalDocumentId = uuidv4();
   console.log(globalDocumentId);
 
-  const chunkPromises = [];
-  for (let i = 0; i < text.length; i += chunkSize) {
-    const chunkText = text.slice(i, i + chunkSize);
-    chunkPromises.push(
-      (async () => {
-        const embedding = await embeddingService.generateEmbedding(chunkText);
-        return {
-          id: crypto.randomUUID(),
-          class: "Final_Test_CollectionWithoutVectoriser",
-          properties: {
-            page_content: chunkText,
-            file_name: filePath,
-            document_id: globalDocumentId,
-            chunk_index: i / chunkSize
-          },
-          vectors: embedding
-        };
-      })()
-    );
+  // Step 1: Split by paragraphs (double newlines)
+  let paragraphs = text.split(/\n\s*\n/);
+  let chunks = [];
+  let currentChunk = "";
+  let chunkIndex = 0;
+
+  for (let para of paragraphs) {
+    let sentences = para.split(/(?<=[.?!])\s+/); // Split by sentence endings
+
+    for (let sentence of sentences) {
+      if ((currentChunk + " " + sentence).length > chunkSize) {
+        // Store the completed chunk
+        chunks.push(currentChunk.trim());
+        currentChunk = sentence; // Start a new chunk
+        chunkIndex++;
+      } else {
+        currentChunk += " " + sentence;
+      }
+    }
+    
+    // If a paragraph is a reasonable size, treat it as a separate chunk
+    if (currentChunk) {
+      chunks.push(currentChunk.trim());
+      currentChunk = "";
+      chunkIndex++;
+    }
   }
 
-  const chunks = await Promise.all(chunkPromises);
-  await documentCollection.data.insertMany(chunks);
+  // Step 2: Store chunks in Weaviate
+  const chunkPromises = chunks.map((chunkText, index) => (async () => {
+    const embedding = await embeddingService.generateEmbedding(chunkText);
+    return {
+      id: uuidv4(),
+      class: "Final_Test_CollectionWithoutVectoriser",
+      properties: {
+        page_content: chunkText,
+        file_name: filePath,
+        document_id: globalDocumentId,
+        chunk_index: index
+      },
+      vectors: embedding
+    };
+  })());
+
+  const storedChunks = await Promise.all(chunkPromises);
+  await documentCollection.data.insertMany(storedChunks);
+  console.log(storedChunks)
   globals.globalString2 = globalDocumentId;
-  console.log(`Stored ${chunks.length} chunks in Weaviate.`);
-  return { globalDocumentId, chunks };
+
+  console.log(`Stored ${storedChunks.length} logical chunks in Weaviate.`);
+  return { globalDocumentId, chunks: storedChunks };
 }
+
+module.exports = splitTextAndStore;
 
 module.exports = {
   storeJSONInWeaviate,

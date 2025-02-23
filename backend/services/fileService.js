@@ -25,7 +25,7 @@ async function extractText(file) {
 async function processAndStoreFile(file) {
   const extractedText = await extractText(file);
   // Call splitTextAndStore to process text into chunks and store in Weaviate
-  const { globalDocumentId, chunks } = await weaviateService.splitTextAndStore(extractedText, file.originalname, 500);
+  const { globalDocumentId, chunks } = await weaviateService.splitTextAndStore(extractedText, file.originalname, 700);
   return {
     globaldocumentId: globalDocumentId,
     previewText: extractedText.substring(0, 400),
