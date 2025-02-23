@@ -1,10 +1,10 @@
 {
     "Speech_ACM (5).pdf": {
-        "document_id": "203742c6-7b43-4aea-8512-0465b3ef72c1",
-        "queries": ["Santosh Kumar","Bhavesh Ajwani","Rahul Shukla","History of git"]
+        "document_id": "8e290cc1-c80f-4b2f-a835-54b867dc2d1f",
+        "queries": ["History of git","Santosh Kumar"]
     },
     "history_of_git.pdf": {
-        "document_id": "d276e253-7ec4-4485-8e41-4257b5270d45",
-        "queries": ["Santosh Kumar", "History of git"]
+        "document_id": "4b6a491c-03e4-4909-8381-081967907536",
+        "queries": ["History of git","Santosh Kumar"]
     }
 }
