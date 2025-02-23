@@ -2,7 +2,8 @@ import json
 import requests
 
 # Backend API Endpoint
-search_url = "https://rag-bakend-assignment-deploy.onrender.com/api/search/search"
+#search_url = "https://rag-bakend-assignment-deploy.onrender.com/api/search/search"
+search_url="http://localhost:4000/api/search/search"
 
 # Input JSON file
 input_json = "queries.json"
