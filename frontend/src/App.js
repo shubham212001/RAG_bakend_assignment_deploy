@@ -87,7 +87,7 @@ function App() {
       <div className="forms-row">
         {/* Upload Section */}
         <div className="upload-container">
-          <h2 className="heading">Upload Document</h2>
+          <h2 className="heading">Upload Document (pdf/docx/txt)</h2>
           <FaFileUpload size={40} color="#00aaff" />
           <div style={{ marginTop: '1rem' }}>
             <input
