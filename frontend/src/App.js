@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaFileUpload, FaSearch } from 'react-icons/fa';
 import './App.css'; // IMPORTANT: Ensure this CSS file is imported
+const url ="https://rag-bakend-assignment-deploy-4t2h.onrender.com"
 
 function App() {
   const [isUploaded, setIsUploaded] = useState(false);
@@ -20,7 +21,6 @@ function App() {
       alert('Please select a file.');
       return;
     }
-
     setIsLoading(true);
     setUploadMessage('');
     const formData = new FormData();
@@ -28,7 +28,7 @@ function App() {
     // https://rag-bakend-assignment-deploy-4t2h.onrender.com/
     // http://localhost:4000
     try {
-      const res = await fetch('https://rag-bakend-assignment-deploy-4t2h.onrender.com/api/files/upload', {
+      const res = await fetch(url+'/api/files/upload', {
         method: 'POST',
         body: formData,
       });
@@ -60,7 +60,7 @@ function App() {
     setIsQuerying(true);
 
     try {
-      const res = await fetch('https://rag-bakend-assignment-deploy-4t2h.onrender.com/api/search/search', {
+      const res = await fetch(url+'/api/search/search', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query }),
@@ -161,3 +161,6 @@ function App() {
 }
 
 export default App;
+
+
+
