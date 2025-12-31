@@ -8,7 +8,7 @@ async function searchQuery(query, received_id) {
     console.log(received_id)
   const queryEmbedding = await embeddingService.generateEmbedding(query);
   const client = await connectToWeaviate();
-  const documentCollection = client.collections.get('test-cluster');
+  const documentCollection = client.collections.get('Test_cluster');
 
   const result = await documentCollection.query.nearVector(queryEmbedding, {
     limit: 3,

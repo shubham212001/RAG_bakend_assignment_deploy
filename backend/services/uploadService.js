@@ -65,7 +65,7 @@ const { v4: uuidv4 } = require('uuid');
 
 // async function splitTextAndStore(text, filePath, chunkSize) {
 //   const client = await connectToWeaviate();
-//   const documentCollection = client.collections.get('test-cluster');
+//   const documentCollection = client.collections.get('Test_cluster');
 
 //   await checkAndDeleteExistingData(documentCollection, filePath);
 
@@ -105,7 +105,7 @@ const { v4: uuidv4 } = require('uuid');
 //     const embedding = await embeddingService.generateEmbedding(chunkText);
 //     return {
 //       id: uuidv4(),
-//       class: "test-cluster",
+//       class: "Test_cluster",
 //       properties: {
 //         page_content: chunkText,
 //         file_name: filePath,
@@ -129,7 +129,7 @@ const { v4: uuidv4 } = require('uuid');
 
 async function splitTextAndStore(text, filePath, chunkSize) {
   const client = await connectToWeaviate();
-  const documentCollection = client.collections.get('test-cluster');
+  const documentCollection = client.collections.get('Test_cluster');
 
   await checkAndDeleteExistingData(documentCollection, filePath);
 
@@ -146,7 +146,7 @@ async function splitTextAndStore(text, filePath, chunkSize) {
     const embedding = await embeddingService.generateEmbedding(chunkText);
     return {
       id: uuidv4(),
-      class: "test-cluster",
+      class: "Test_cluster",
       properties: {
         page_content: chunkText,
         file_name: filePath,
